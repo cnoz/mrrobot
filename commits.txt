@@ -1,0 +1,23 @@
+commit a57fe807d5a51edec09e8b03875f23156fda4975
+Author: Cristian H. M. Nozralah <cnoz2001@yahoo.com.ar>
+Date:   Wed Sep 20 19:25:49 2023 -0300
+
+    Agregue h3
+
+commit 32ac80557d03be4fd1572791ab054e4376f78e81
+Author: Cristian H. M. Nozralah <cnoz2001@yahoo.com.ar>
+Date:   Wed Sep 20 19:23:27 2023 -0300
+
+    puse un p para la foto
+
+commit 730a8ea07011e6a7289f03b5a19d4911300d3035
+Author: Cristian H. M. Nozralah <cnoz2001@yahoo.com.ar>
+Date:   Wed Sep 20 19:18:40 2023 -0300
+
+    cambie el nombre del home
+
+commit 2683a177c105395a6e614947a1d96e0a7e711efd
+Author: Cristian H. M. Nozralah <cnoz2001@yahoo.com.ar>
+Date:   Wed Sep 20 19:09:31 2023 -0300
+
+    archivos bases
