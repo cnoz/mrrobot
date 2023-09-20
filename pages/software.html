@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software</title>
+    <link rel="stylesheet" href="/css/style.css">
+
+</head>
+<body>
+    <nav >
+        <ul class="navbar">
+            <li><a href="../index.html" >Home</a></li>
+            <li><a href="hardware.html">Hardware</a></li>
+            <li><a href="#">Software</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <h1>Bienvenidos a Software</h1>
+    <img src="../img/mr-robot-y-papa.jpg" alt="foto mr robot y su papa" width="50%">
+
+
+    <video src="../video/Mr. Robot - Trailer (Subtitulado Español).mp4#t=10,30" alt="mr robot" preload="auto" controls loop autoplay muted></video>
+
+    <!-- <iframe width="1823" height="565" src="https://www.youtube.com/embed/NcgfoRpWLTs" title="Mr. Robot - Trailer (Subtitulado Español)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis veritatis eum, amet quaerat sed quis commodi culpa est, architecto hic distinctio voluptas totam suscipit excepturi sapiente ab sint debitis! Tenetur asperiores ipsam, incidunt ratione cumque quia dicta iusto obcaecati sapiente sunt sint ab veniam rerum?</p>
+    <!-- Formulario -->
+    <form action="" method="" target="_blank">
+        <fieldset>
+            <legend><b>Datos Personales</b></legend>
+                <label for="apellido">Apellido</label>
+                <input type="text" id="apellido" name="apellido" required>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" required> <br> <br>
+                <label for="dni" >D.N.I.</label>
+                <input type="number" id="dni" name="dni">
+                <label for="tramite">Nro Trámite.</label>
+                <input type="password" id="tramite" name="tramite">
+                <label for="fecNac">Fecha de Nacimiento.</label>
+                <input type="date" id="fecNac" name="fecNac">
+                <label for="adjuntar">Adjuntar Foto.</label>
+                <input type="file" id="adjuntar" name="adjuntar">
+                
+        </fieldset>
+        <hr>
+        <fieldset>
+            <!-- select permite elegir una opcion o varias con el atributo multiple. seleccionando con el click y tecla ctrl-->
+            <legend><b>Turnos</b></legend>
+            <label for="turno"><b>Seleccionar Turno</b></label> <br>
+            <select name="turno" id="turno" size="3" >
+                <option value="1">Mañana</option>
+                <option value="2">Tarde</option>
+                <option value="3">Noche</option>
+            </select> <br>
+            <!-- <select name="turno" id="turno" size="">
+                <option value="0" >Elija su opción</option>
+                <option value="1">Mañana</option>
+                <option value="2">Tarde</option>
+                <option value="3">Noche</option>
+            </select> <br> -->
+            <!-- checkbox podemos seleccionar 1 o varias opciones -->
+            <label for="chequeo"><b>Chequeos previos:</b></label> <br>
+            <input type="checkbox" name="op" value="1"> Electrocardiograma
+            <input type="checkbox" name="op" value="2"> Sangre
+            <input type="checkbox" name="op" value="3"> Radiografía
+            <input type="checkbox" name="op" value="4"> Renal
+            <br>
+            <!-- CON RADIO obligamos a elegir una opcion -->
+            <label for="operacion"><b>Zona de Operación:</b></label> <br>
+            <input type="radio" name="rb" value="1"> Clinica Privada
+            <input type="radio" name="rb" value="2"> Nosocomio
+            <input type="radio" name="rb" value="3"> Hospital Público
+            <br>
+            <label for="color"><b>Color de Ojos:</b></label><br>
+            <input type="color" name="color" id="color">
+            <br>
+            <label for="hijos"><b>Cantidad de Hijos:</b></label><br>
+            <input type="number" name="hijos" id="hijos" min="1" max="10">
+            <br> <hr>
+            
+            <input type="checkbox" name="condiciones" required><b>Acepto los terminos y condiciones</b><br>
+            <input type="submit" value="Enviar Datos">
+            <input type="reset" value="Borrar">
+            
+        </fieldset>
+
+        
+    </form>
+
+    <div class="ejemplo">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis beatae quam. Beatae quisquam officiis hic fuga inventore vero libero animi, omnis neque deleniti nesciunt architecto ex atque quasi qui esse magnam voluptatum voluptatibus reiciendis distinctio asperiores natus perspiciatis tenetur veritatis. Laudantium in voluptates doloribus laboriosam iure voluptatem. Quod, facilis.</p>
+    </div>
+    <hr>
+    <h2>Pseudoclases</h2>
+    <a href="#">Enlaces</a>
+    <input type="text"> <br>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, rerum. Repellat sit assumenda, dolore iusto facilis praesentium, fuga quis veniam optio fugiat quaerat ut fugit.</p>
+
+
+</body>
+</html>
