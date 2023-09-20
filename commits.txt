@@ -1,3 +1,21 @@
+commit d5f075f7c007eaa12f9a7cc5b9c9c17168c5b09e
+Author: Cristian H. M. Nozralah <cnoz2001@yahoo.com.ar>
+Date:   Wed Sep 20 19:59:21 2023 -0300
+
+    cambie foto
+
+commit 75b2149443775485133cc0f6fc4fcb866a89b031
+Author: Cristian H. M. Nozralah <cnoz2001@yahoo.com.ar>
+Date:   Wed Sep 20 19:51:55 2023 -0300
+
+    cambie el fondo con el css
+
+commit 9445ee7866bfde645e179b376f2878599df62f3f
+Author: Cristian H. M. Nozralah <cnoz2001@yahoo.com.ar>
+Date:   Wed Sep 20 19:47:16 2023 -0300
+
+    primer commit para hardware.html
+
 commit a57fe807d5a51edec09e8b03875f23156fda4975
 Author: Cristian H. M. Nozralah <cnoz2001@yahoo.com.ar>
 Date:   Wed Sep 20 19:25:49 2023 -0300
